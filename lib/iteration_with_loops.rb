@@ -1,4 +1,11 @@
 def join_nested_strings(src)
-  # src will be an Array of Arrays of Strings and Integers
-  # Combine all Strings present in the AoA into a single value and return it
-end
+
+string_only=[]
+row_index=0 
+ while row_index < src.count do 
+ #min_temp.push src[row_index].min 
+ string_only.push src[row_index]
+ row_index += 1 
+ end 
+ string_only
+end 
